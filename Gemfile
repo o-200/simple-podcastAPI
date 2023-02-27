@@ -46,3 +46,4 @@ group :development do
   # gem "spring"
 end
 
+gem "shrine", "~> 3.0"
