@@ -1,3 +1,5 @@
 class AudioUploader < Shrine
-  # plugins and uploading logic
+  Attacher.validate do
+    validate_extension %w[mp3 mp4 wav]
+  end
 end
