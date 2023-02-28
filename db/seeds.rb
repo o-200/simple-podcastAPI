@@ -6,8 +6,8 @@ Post.destroy_all
 
 
   post = Post.create!(
-    title: 'Faker::Commerce.product_name',
-    body: 'Faker::Markdown.emphasis',
+    title: Faker::Commerce.product_name,
+    body: Faker::Markdown.emphasis,
     audio: uploader.upload(file)
   )
   puts post.title
