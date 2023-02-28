@@ -1,3 +1,3 @@
 class Post < ApplicationRecord
-  include AudioUploader::Attachment(:posts)
+  include AudioUploader::Attachment(:audio)
 end
