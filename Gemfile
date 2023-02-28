@@ -48,6 +48,7 @@ group :development do
 end
 
 gem "shrine", "~> 3.0"
+gem "faker"
 
 group :test do
   gem 'simplecov', require: false
